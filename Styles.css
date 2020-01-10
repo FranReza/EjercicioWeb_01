@@ -1,0 +1,61 @@
+*{/*Resetear todos los estilos*/
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+body { /*Cambiamos todo el BODY*/
+  background: #ffff; /*Colocamos un color blanco en el body*/
+}
+
+.title h1{ /*Cambiamos el h1 dentro de la clase llamada titulo*/
+  text-align: center;
+  margin-top: 50px;
+  padding: 25px 0px;
+}
+
+.container{
+    background: #FF7400;
+    width: 60%;
+    margin: 10px auto;
+    padding: 20px 20px;
+    display: grid;
+    gap: 1em;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+.container h2 {
+  grid-column: 1/4;
+  text-align: center;
+  color: #ffff;
+}
+
+.container input {
+  grid-column: 2/3;
+  grid-row: 2px;
+  padding: 5px 0px;
+  border-radius: 3px;
+
+}
+
+.button{
+  background: #d81717;
+  color: #ffff;
+  border-color: #B81233;
+}
+
+.button:hover{
+  background: red;
+}
+
+.container a{
+  grid-column: 2/3;
+  text-align: center;
+  color: #ffff;
+}
+
+footer{
+  text-align: center;
+  padding-top: 50px;
+}
